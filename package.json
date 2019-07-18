@@ -1,0 +1,33 @@
+{
+  "name": "myfirstreactapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "webpack": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --content-base build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinaZC/myFirstReactApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rinaZC/myFirstReactApp/issues"
+  },
+  "homepage": "https://github.com/rinaZC/myFirstReactApp#readme",
+  "dependencies": {
+    "webpack-cli": "^3.3.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
