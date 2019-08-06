@@ -1,0 +1,1 @@
+export Mongo_URI="mongodb+srv://realUser:54321@myfirstcluster-rw8qi.mongodb.net/todo?retryWrites=true&w=majority"
